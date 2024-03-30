@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CloudNativeCloudEvents", "CloudNativeCloudEvents", "{2AE46C8A-02D1-4DFF-AF22-2A3C3CC2584A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoSolutions", "DemoSolutions", "{082D3411-ECDF-4213-AACE-5516AFAAECAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventVersioning", "EventVersioning\EventVersioning.csproj", "{3DCE9538-6B31-438D-8932-935A8EF3210B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudEventDemo", "CloudEventDemo\CloudEventDemo.csproj", "{079902C5-A677-44F8-925F-0F300D72C54E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3DCE9538-6B31-438D-8932-935A8EF3210B} = {3DCE9538-6B31-438D-8932-935A8EF3210B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DCE9538-6B31-438D-8932-935A8EF3210B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DCE9538-6B31-438D-8932-935A8EF3210B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DCE9538-6B31-438D-8932-935A8EF3210B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DCE9538-6B31-438D-8932-935A8EF3210B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{079902C5-A677-44F8-925F-0F300D72C54E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079902C5-A677-44F8-925F-0F300D72C54E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079902C5-A677-44F8-925F-0F300D72C54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{079902C5-A677-44F8-925F-0F300D72C54E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DCE9538-6B31-438D-8932-935A8EF3210B} = {2AE46C8A-02D1-4DFF-AF22-2A3C3CC2584A}
+		{079902C5-A677-44F8-925F-0F300D72C54E} = {082D3411-ECDF-4213-AACE-5516AFAAECAF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB3E83F6-A917-49D4-B40D-EC2A430A3507}
+	EndGlobalSection
+EndGlobal

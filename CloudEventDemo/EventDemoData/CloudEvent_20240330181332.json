@@ -1,0 +1,12 @@
+{
+  "Id": "event-123",
+  "Source": "/myapplication/events",
+  "Type": "com.example.someevent",
+  "SpecVersion": "1.0",
+  "DataContentType": "application/json",
+  "DataSchema": null,
+  "Subject": null,
+  "Time": null,
+  "Data": "{\u0022name\u0022:\u0022Test Event\u0022}",
+  "Extensions": {}
+}

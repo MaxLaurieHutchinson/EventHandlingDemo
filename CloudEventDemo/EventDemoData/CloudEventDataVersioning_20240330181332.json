@@ -1,0 +1,15 @@
+{
+  "Extensions": {
+    "dataVersion": 2
+  },
+  "DataVersion": 2,
+  "Id": "versioned-event-456",
+  "Source": "/myapplication/versionedevents",
+  "Type": "com.example.versionedevent",
+  "SpecVersion": "1.0",
+  "DataContentType": "application/json",
+  "DataSchema": null,
+  "Subject": null,
+  "Time": null,
+  "Data": "{\u0022name\u0022:\u0022Versioned Test Event\u0022}"
+}
